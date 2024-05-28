@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gunjan fitness club</title>
+</head>
+<link href="https://fonts.google.com/specimen/Balthazar?query=bal" re;="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body
+    {
+         font-family: 'baloo bhai',cursive;
+         color: white;
+         margin: 0px;
+         padding: 0px;
+         background: url('img/abs-1850926_1280.jpg');
+         
+    }
+    .left
+    {
+         margin: 15px;
+         display: inline-block;
+         /* border: 2px solid red; */
+    }
+    .left img{
+         width: 106px;
+         height: 65px;
+        
+    }
+    .left div
+    { 
+       text-align: center;
+      
+    }
+    .mid
+    {
+        display: block;
+        width: 33%;
+        margin: -96px auto;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 43%;
+    }
+    .right
+    {   
+        margin: 15px;
+        position: absolute;
+        right: 18px;
+        top:26px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+    .navbar
+    {
+        display: inline-block; 
+    }
+    .navbar li{
+
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 0px 14px;
+    }
+    .navbar li a:hover,.navbar li a.active
+    {
+        text-decoration: underline;
+         color: aqua;
+    }
+    .btn
+    {
+        font-family: 'baloo bhai',cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 4px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+    .btn:hover
+    {
+        background-color: rgb(116, 101, 101);
+    }
+    .form-group input{
+
+        text-align: center;
+        position: relative;
+        left: 106px;
+        display: block;
+        width: 250px;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 12px;
+        font-family: 'baloo bhai',cursive;
+        margin: 5px;
+        
+    }
+    .container
+    {
+        border: 2px solid rgb(65, 84, 71);
+        position: absolute;
+        left: 45%;
+        margin: 2px 18px;
+        padding: 4px 2px;
+        border-radius: 9px;
+        width: 31%;
+        height: 50%;
+    }
+    .container h1{
+        text-align: center;
+
+    }
+    .container button
+    {
+        display: block;
+        position: relative;
+        width: 55%;
+        margin: 6px;
+        left: 23%;
+
+    }
+
+</style>
+<body>
+    <header class="header">    <!-- for left -->
+        <div class="left">
+           <img src="img/heart-7834275_1280.jpg" alt="" >
+           <div>gunjan fitness</div>
+        </div>
+        <div class="mid">
+              <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+              </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                call us
+
+            </button><button class="btn">
+                email us
+            </button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>join the best gym now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="test" name="" placeholder="enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="test" name="" placeholder="enter your age">
+            </div>
+
+            <div class="form-group">
+                <input type="test" name="" placeholder="enter your xender">
+            </div>
+
+            <div class="form-group">
+                <input type="test" name="" placeholder="enter your locality">
+            </div>
+
+            <div class="form-group">
+                <input type="test" name="" placeholder="enter your phone no">
+            </div>
+
+            <div class="form-group">
+                <input type="test" name="" placeholder="enter your email">
+            </div>
+
+            <button class="btn">submit</button>
+        </form>
+    </div>
+    
+</body>
+</html
